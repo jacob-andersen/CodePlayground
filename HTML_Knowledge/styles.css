@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    /* float: left; */
+    border: 1px solid #ff0000;
+    padding: 10px;
+}
+
+#box1 {
+    float:left;
+    margin-right: 50%;
+    color: red;
+}
+
+#box2 {
+    float: left;
+    /* margin-right: 50%; */
+    color: green;
+
+}
+
+#box3 {
+    float: left;
+    /* margin-right: 50%; */
+    color: blue;
+
+}
+
+#box4 {
+    float: left;
+    /* margin-right: 50%; */
+    color: #FF00FF;
+}
