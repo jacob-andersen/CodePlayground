@@ -1,5 +1,7 @@
 import java.util.Stack;
 
+// a small test class to print out all the cards in a deck complete with suit and rank
+
 public class DeckTest {
     public static void main(String[] args) {
         

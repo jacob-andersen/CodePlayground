@@ -1,6 +1,9 @@
 
 import java.util.Scanner;
 
+
+// a very simple utility class to shift an array by one element
+
 public class CycleShiftInts {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

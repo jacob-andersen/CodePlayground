@@ -1,6 +1,9 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+// Utility function that will be needed for Java based Learning application
+// To determined when it is time to practice a topic again, before it is forgotten
+
 public class DateDifference {
     static class Day {
         int day;

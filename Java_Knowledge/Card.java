@@ -1,5 +1,8 @@
 public class Card {
     
+// 2 enum classes for Suit and Rank respectively
+// includes methods to determine rank and card value based on a card object
+// in order to determine hand value and winner of game
     enum Suit {
         CLUBS("\u0005"), DIAMONDS("\u0004"), HEARTS("\u0003"), SPADES("\u0006");
 

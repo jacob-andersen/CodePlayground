@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+// utility class to encrypt and decrypt messages using a basic ceasar cypher
+// the parameters asked for in the terminal are :
+// enc (for ENCryption) or dec (for DECryption)
+// next, input the text you want to encrypt/decrypt
+// finally, input a positive number 1-26, you wish to
+// use in the encryption/decryption process
+
+// 
 public class Encryption {
 
     final static String cypherKey = "abcdefghijklmnopqrstuvwxyz";
@@ -35,9 +43,9 @@ public class Encryption {
                     shiftedText += text.charAt(i);
                     continue;
                 }
-                shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + idxKey);
+                shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + key);
                 if (shiftedIdx > cypherKey.length()-1) {
-                    shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + idxKey - (cypherKey.length() - 1));
+                    shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + key - (cypherKey.length() - 1));
                     shiftedText += cypherKey.charAt(shiftedIdx - 1);
                 } else {
                     shiftedText += (cypherKey.charAt(shiftedIdx));
@@ -53,9 +61,9 @@ public class Encryption {
                 shiftedText += text.charAt(i);
                 continue;
             }
-            shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + idxKey);
+            shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + key);
             if (shiftedIdx > cypherKey.length()-1) {
-                shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + idxKey - (cypherKey.length() - 1));
+                shiftedIdx = (cypherKey.indexOf(text.charAt(i)) + key - (cypherKey.length() - 1));
                 shiftedText += cypherKey.charAt(shiftedIdx - 1);
             } else {
                 shiftedText += (cypherKey.charAt(shiftedIdx));

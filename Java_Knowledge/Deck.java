@@ -1,6 +1,9 @@
 import java.util.Stack;
 import java.util.Collections;
 
+// basic utility class for creating a deck of cards
+// the deck is shuffled after creation
+
 public class Deck {
 
     public Deck() {}
