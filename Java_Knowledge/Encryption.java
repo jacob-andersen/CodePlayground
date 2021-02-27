@@ -1,3 +1,4 @@
+package Java_Knowledge;
 import java.util.Scanner;
 
 // utility class to encrypt and decrypt messages using a basic ceasar cypher
@@ -5,7 +6,7 @@ import java.util.Scanner;
 // enc (for ENCryption) or dec (for DECryption)
 // next, input the text you want to encrypt/decrypt
 // finally, input a positive number 1-26, you wish to
-// use in the encryption/decryption process
+// use as an offset in the encryption/decryption process
 
 // 
 public class Encryption {

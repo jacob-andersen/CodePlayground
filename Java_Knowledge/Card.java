@@ -1,3 +1,4 @@
+package Java_Knowledge;
 public class Card {
     
 // 2 enum classes for Suit and Rank respectively
