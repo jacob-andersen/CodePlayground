@@ -1,3 +1,6 @@
+// a few small simple math functions
+// to practice working with modules in javascript
+
 function add(a, b) {
     return a + b;
 }
