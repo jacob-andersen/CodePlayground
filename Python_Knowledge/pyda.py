@@ -1,3 +1,5 @@
+# crude but working example of how to use wolfram engine to answer search query from terminal
+
 import wolframalpha
 
 question = input("Question: ")
