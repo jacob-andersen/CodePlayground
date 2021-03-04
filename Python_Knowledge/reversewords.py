@@ -1,3 +1,5 @@
+# invoking the python slice method to reverse a given word
+
 word = 'The Cat In The Hat'
 reverseWord=""
 
