@@ -1,4 +1,3 @@
-package Java_Knowledge;
 import java.util.Scanner;
 
 // utility class to encrypt and decrypt messages using a basic ceasar cypher

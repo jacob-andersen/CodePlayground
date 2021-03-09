@@ -3,14 +3,10 @@
     public class SecondsToTime {
 
   public static void main(String[] args) {
-    // put your code here
-    //   Scanner input = new Scanner(System.in);
 
       int totalSeconds = 3660;
       String timeString = "";
       
-    //   int totalSeconds = input.nextInt();
-
       int hours = totalSeconds / 3600;
       timeString += hours + ":";
       
